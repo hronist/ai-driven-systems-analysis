@@ -32,10 +32,11 @@
 
 * [**Модуль 1: Границы системы и Архитектурный контекст**](./guides/week1.md) (C4 Model, DDD, Декомпозиция)
 * [**Модуль 2: Выявление требований и Бизнес-процессы**](./guides/week2.md) (BPMN 2.0, The Mom Test)
-* [**Модуль 3: Пользовательские сценарии и Бэклог**](./guides/week3.md) (User Story Mapping, Use Cases)
+* [**Модуль 3: Пользовательские сценарии и Бэклог**](./guides/week3.md) (User Story Mapping, RICE, Use Cases)
 * [**Модуль 4: Системный дизайн: Данные и Интеграции**](./guides/week4.md) (ERD, Sequence Diagrams, OpenAPI)
-* [**Модуль 5: Анатомия ТЗ (Структура документации)**](./guides/week5.md) (PRD, RBAC, NFR)
-* [**Модуль 6: Качество, BDD и Управление изменениями**](./guides/week6.md) (Gherkin, Матрица трассировки)
+* [**Модуль 5: Распределенные системы и Асинхронная архитектура**](./guides/week5.md) (Event-Driven, AsyncAPI, Saga, Outbox)
+* [**Модуль 6: Анатомия ТЗ (Структура документации)**](./guides/week6.md) (PRD, Unit Economics, Feasibility)
+* [**Модуль 7: Качество, BDD и Управление изменениями**](./guides/week7.md) (Gherkin, Матрица трассировки)
 
 ---
 
