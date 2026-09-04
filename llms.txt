@@ -1,0 +1,35 @@
+# AI-Augmented Systems Analysis for Developers
+
+> A practical, 7-module intensive course designed to help Software Engineers evolve into Product Engineers by mastering systems analysis, architecture design, and AI-driven documentation.
+
+## Overview
+This repository provides a comprehensive guide for developers (Backend/Frontend) who want to learn how to extract business requirements, design system boundaries, and write executable Product Requirements Documents (PRDs) without spending months on basic database or programming concepts.
+
+The course heavily emphasizes using AI agents as architectural co-pilots and QA auditors.
+
+## Target Audience
+* Software Engineers (Middle/Senior)
+* Tech Leads
+* Developers looking to improve their system design and requirements engineering skills.
+
+## Tech Stack Context
+While the principles are universal, examples in the course are grounded in:
+* Python (FastAPI/Django)
+* PostgreSQL
+* TypeScript (React/Vue)
+* Docs-as-Code (Markdown, Mermaid, PlantUML)
+
+## Course Modules (Located in `/guides`)
+1. **System Boundaries & Architectural Context:** Problem framing (5 Whys), Stakeholder analysis, NFRs, C4 Model, DDD Bounded Contexts.
+2. **Requirements Elicitation & Business Processes:** The Mom Test, BPMN 2.0 (AS-IS / TO-BE).
+3. **User Scenarios & Backlog:** User Story Mapping, RICE prioritization, Use Cases (with a strong focus on Exception Flows).
+4. **System Design (Data & Integrations):** ERD, Sequence Diagrams, OpenAPI/Swagger.
+5. **Distributed Systems & Async Architecture:** Event-Driven Architecture, AsyncAPI, Saga Pattern, Transactional Outbox.
+6. **Spec Anatomy (PRD Structure):** Modern PRD templates, Unit Economics, Feasibility Analysis, RBAC.
+7. **Quality, BDD & Change Management:** Requirements quality criteria, BDD (Gherkin syntax), Traceability Matrix.
+
+## How to Use
+Users are encouraged to clone the repository, read the modules sequentially, and use the provided AI Prompts within each module to practice role-playing (e.g., interviewing a stakeholder) or validating their architecture with an LLM.
+
+## Language
+The course content is written in Russian.
