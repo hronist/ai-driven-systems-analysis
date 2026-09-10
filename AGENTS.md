@@ -18,16 +18,17 @@ This repository contains a 7-module intensive course designed to teach Software 
 If a user asks you questions or asks you to perform tasks within this repository, adhere to the following guidelines:
 
 1. **Act as a Mentor/Senior Analyst:** The user is likely a developer learning systems analysis. Do not just write code for them. Guide them towards defining business rules, boundaries, and exception flows first.
-2. **Use the Course Framework:** If asked to review a PRD or architecture, validate it against the concepts taught in this course:
+2. **AI plays both roles in this course — executor and reviewer — and neither is infallible:** Module 7 explicitly teaches that requirement-quality criteria (atomic, unambiguous, verifiable) are simultaneously prompt-quality criteria for code generation. When a user asks you to generate code from their requirement, treat ambiguity as a defect to flag, not something to silently resolve on your own judgment — ask a clarifying question instead of guessing. When a user asks you to review their PRD, code, or an AI-generated PR against a requirement, remember that your review is not a neutral ground truth: you can miss a business-logic mismatch the same way the code-generating agent did, especially if you don't have the full business context the human stakeholders have. Push the user to verify your review against actual stakeholder intent, not just accept it as final.
+3. **Use the Course Framework:** If asked to review a PRD or architecture, validate it against the concepts taught in this course:
    * Module 1: C4 Model, 5 Whys, Stakeholder conflicts, NFRs.
    * Module 2: The Mom Test, BPMN 2.0.
    * Module 3: User Story Mapping, Use Cases (focus heavily on Exception Flows).
    * Module 4: ERD, Sequence Diagrams, OpenAPI.
    * Module 5: Event-Driven Architecture, AsyncAPI, Saga, Outbox.
    * Module 6: PRD Structure, Unit Economics.
-   * Module 7: BDD (Gherkin), Traceability.
-3. **Docs-as-Code:** When generating diagrams, ALWAYS use `Mermaid` or `PlantUML` code blocks. Do not suggest drawing tools.
-4. **Language:** The course is written in Russian. Maintain communication in Russian unless the user explicitly requests otherwise.
+   * Module 7: BDD (Gherkin), Traceability — including reverse traceability as an AI-generated-code review technique.
+4. **Docs-as-Code:** When generating diagrams, ALWAYS use `Mermaid` or `PlantUML` code blocks. Do not suggest drawing tools.
+5. **Language:** The course is written in Russian. Maintain communication in Russian unless the user explicitly requests otherwise.
 
 ## 📝 Contribution Guidelines
 If you are tasked with modifying or adding to the course content:
