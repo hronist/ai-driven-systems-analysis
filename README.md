@@ -29,22 +29,22 @@
 
 ## 🗺 Дорожная карта (Syllabus)
 
-Курс разбит на 7 модулей. Порядок важен, а темп — нет: проходите в своем ритме.
+Курс разбит на 7 модулей. Порядок важен, а темп — нет: проходите в своем ритме. Доступны версии на русском и английском языках.
 
-* [**Модуль 1: Границы системы и Архитектурный контекст**](./guides/ru/01-system-boundaries.md) (Жизненный цикл идеи, стейкхолдеры, NFR, C4)
-* [**Модуль 2: Выявление требований и Бизнес-процессы**](./guides/ru/02-requirements-elicitation.md) (BPMN 2.0, The Mom Test)
-* [**Модуль 3: Пользовательские сценарии и Бэклог**](./guides/ru/03-user-scenarios-backlog.md) (User Story Mapping, RICE, Use Cases)
-* [**Модуль 4: Системный дизайн: Данные и Интеграции**](./guides/ru/04-data-integrations.md) (ERD, Sequence Diagrams, OpenAPI)
-* [**Модуль 5: Распределенные системы и Асинхронная архитектура**](./guides/ru/05-distributed-systems.md) (Event-Driven, AsyncAPI, Saga, Outbox)
-* [**Модуль 6: Анатомия ТЗ (Структура документации)**](./guides/ru/06-spec-anatomy.md) (PRD, Unit Economics, Feasibility)
-* [**Модуль 7: Качество, BDD и Управление изменениями**](./guides/ru/07-quality-bdd.md) (Gherkin, Матрица трассировки)
+* **Модуль 1: Границы системы и Архитектурный контекст** — [RU](./guides/ru/01-system-boundaries.md) | [EN](./guides/en/01-system-boundaries.md) (Жизненный цикл идеи, стейкхолдеры, NFR, C4)
+* **Модуль 2: Выявление требований и Бизнес-процессы** — [RU](./guides/ru/02-requirements-elicitation.md) | [EN](./guides/en/02-requirements-elicitation.md) (BPMN 2.0, The Mom Test)
+* **Модуль 3: Пользовательские сценарии и Бэклог** — [RU](./guides/ru/03-user-scenarios-backlog.md) | [EN](./guides/en/03-user-scenarios-backlog.md) (User Story Mapping, RICE, Use Cases)
+* **Модуль 4: Системный дизайн: Данные и Интеграции** — [RU](./guides/ru/04-data-integrations.md) | [EN](./guides/en/04-data-integrations.md) (ERD, Sequence Diagrams, OpenAPI)
+* **Модуль 5: Распределенные системы и Асинхронная архитектура** — [RU](./guides/ru/05-distributed-systems.md) | [EN](./guides/en/05-distributed-systems.md) (Event-Driven, AsyncAPI, Saga, Outbox)
+* **Модуль 6: Анатомия ТЗ (Структура документации)** — [RU](./guides/ru/06-spec-anatomy.md) | [EN](./guides/en/06-spec-anatomy.md) (PRD, Unit Economics, Feasibility)
+* **Модуль 7: Качество, BDD и Управление изменениями** — [RU](./guides/ru/07-quality-bdd.md) | [EN](./guides/en/07-quality-bdd.md) (Gherkin, Матрица трассировки)
 
 ---
 
 ## 🚀 Как проходить курс
 
 1. Клонируйте этот репозиторий.
-2. Переходите в папку `guides/ru/` и начинайте с Модуля 1 (`01-system-boundaries.md`).
+2. Выберите язык (папка `guides/ru/` или `guides/en/`) и начинайте с Модуля 1 (`01-system-boundaries.md`).
 3. В каждом модуле есть **Практическое задание** и **Промпты для ИИ**. Выполняйте задания в своей локальной песочнице. AI в курсе выступает в двух ролях — не только как проверяющий ваши решения, но и как исполнитель: в Модуле 7, например, вы сами убедитесь, что критерии качественного требования (атомарность, недвусмысленность, проверяемость) — это одновременно и критерии хорошего промпта для кодогенерации.
 4. Ориентир по темпу: 1 модуль ≈ 1 неделя — но это не жесткое требование, модули не привязаны к календарю.
 
