@@ -1,11 +1,11 @@
 # AI-Augmented Systems Analysis for Developers
 
-> A practical, 7-module intensive course designed to help Software Engineers evolve into Product Engineers by mastering systems analysis, architecture design, and AI-driven documentation.
+> A practical systems analysis course for developers: clarify an agreed feature, design its implementation, produce a defensible specification, and deliver working behavior for customer acceptance.
 
 ## Overview
 This repository provides a comprehensive guide for developers (Backend/Frontend) who want to learn how to extract business requirements, design system boundaries, and write executable Product Requirements Documents (PRDs) without spending months on basic database or programming concepts.
 
-The course heavily emphasizes using AI agents as architectural co-pilots and QA auditors.
+AI may assist analysis, review, and code generation. Product selection belongs to the product manager; business rules require authorized human agreement, and the customer accepts the result. Distinguish facts, assumptions, proposals, and agreed requirements.
 
 ## Target Audience
 * Software Engineers (Middle/Senior)
@@ -20,6 +20,9 @@ While the principles are universal, examples in the course are grounded in:
 * Docs-as-Code (Markdown, Mermaid, PlantUML)
 
 ## Course Modules (Located in `/guides`)
+
+Start with `00-analysis-intro.md`: identifying unknowns, choosing sources, prioritizing questions, and revising decisions. Then continue with Module 1 using the same fictional refund case. Original Module 1 topics are retained with embedded exercises; gamification remains an additional exercise. Modules 2–7 and the English version await adaptation.
+
 1. **System Boundaries & Architectural Context:** Problem framing (5 Whys), Stakeholder analysis, NFRs, C4 Model, DDD Bounded Contexts.
 2. **Requirements Elicitation & Business Processes:** The Mom Test, BPMN 2.0 (AS-IS / TO-BE).
 3. **User Scenarios & Backlog:** User Story Mapping, RICE prioritization, Use Cases (with a strong focus on Exception Flows).
@@ -29,7 +32,7 @@ While the principles are universal, examples in the course are grounded in:
 7. **Quality, BDD & Change Management:** Requirements quality criteria, BDD (Gherkin syntax), Traceability Matrix.
 
 ## How to Use
-Users are encouraged to clone the repository, read the modules sequentially, and use the provided AI Prompts within each module to practice role-playing (e.g., interviewing a stakeholder) or validating their architecture with an LLM.
+Read the Russian introduction first, then Module 1. Answer exercises before opening the collapsible explanations. AI is optional; its hypotheses and simulated stakeholder answers do not establish facts or approve business rules. See COURSE_DESIGN.md for agreed methodology and migration status.
 
 ## Language
 The course content is written in Russian.
